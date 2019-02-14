@@ -32,7 +32,7 @@ s.source = { :git => "https://github.com/zframeworkdev/ZRichFlavor.git",
 s.source_files = "ZRichFlavor/**/*.{swift}"
 
 # 9
-s.resources = "ZRichFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+#s.resources = "ZRichFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "4.2"
