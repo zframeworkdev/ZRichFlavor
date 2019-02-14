@@ -10,6 +10,9 @@
 		35C604352214F9B0004733D5 /* ZRichFlavor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C6042B2214F9B0004733D5 /* ZRichFlavor.framework */; };
 		35C6043A2214F9B0004733D5 /* ZRichFlavorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C604392214F9B0004733D5 /* ZRichFlavorTests.swift */; };
 		35C6043C2214F9B0004733D5 /* ZRichFlavor.h in Headers */ = {isa = PBXBuildFile; fileRef = 35C6042E2214F9B0004733D5 /* ZRichFlavor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35C604472214FD27004733D5 /* SPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C604462214FD27004733D5 /* SPerson.swift */; };
+		3891ABE21F8A2DF66697B6A6 /* libPods-ZRichFlavorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB2495685E742BA0672593B6 /* libPods-ZRichFlavorTests.a */; };
+		DCA661C61ACFCF5BC139EAC2 /* libPods-ZRichFlavor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFECB9D5D6822CC2681D861 /* libPods-ZRichFlavor.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,13 @@
 		35C604342214F9B0004733D5 /* ZRichFlavorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZRichFlavorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C604392214F9B0004733D5 /* ZRichFlavorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZRichFlavorTests.swift; sourceTree = "<group>"; };
 		35C6043B2214F9B0004733D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35C604462214FD27004733D5 /* SPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPerson.swift; sourceTree = "<group>"; };
+		60D69D3A88008527BB12BC42 /* Pods-ZRichFlavorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZRichFlavorTests.release.xcconfig"; path = "Target Support Files/Pods-ZRichFlavorTests/Pods-ZRichFlavorTests.release.xcconfig"; sourceTree = "<group>"; };
+		89CBC309ED4874D299FC51C8 /* Pods-ZRichFlavorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZRichFlavorTests.debug.xcconfig"; path = "Target Support Files/Pods-ZRichFlavorTests/Pods-ZRichFlavorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDFECB9D5D6822CC2681D861 /* libPods-ZRichFlavor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZRichFlavor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2495685E742BA0672593B6 /* libPods-ZRichFlavorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZRichFlavorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8316AF1076CA0863B939C03 /* Pods-ZRichFlavor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZRichFlavor.release.xcconfig"; path = "Target Support Files/Pods-ZRichFlavor/Pods-ZRichFlavor.release.xcconfig"; sourceTree = "<group>"; };
+		F895CC21A10ECACB9769944C /* Pods-ZRichFlavor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZRichFlavor.debug.xcconfig"; path = "Target Support Files/Pods-ZRichFlavor/Pods-ZRichFlavor.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCA661C61ACFCF5BC139EAC2 /* libPods-ZRichFlavor.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +55,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				35C604352214F9B0004733D5 /* ZRichFlavor.framework in Frameworks */,
+				3891ABE21F8A2DF66697B6A6 /* libPods-ZRichFlavorTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		205EFEC1376536F8DA5F805A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F895CC21A10ECACB9769944C /* Pods-ZRichFlavor.debug.xcconfig */,
+				F8316AF1076CA0863B939C03 /* Pods-ZRichFlavor.release.xcconfig */,
+				89CBC309ED4874D299FC51C8 /* Pods-ZRichFlavorTests.debug.xcconfig */,
+				60D69D3A88008527BB12BC42 /* Pods-ZRichFlavorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		35C604212214F9B0004733D5 = {
 			isa = PBXGroup;
 			children = (
 				35C6042D2214F9B0004733D5 /* ZRichFlavor */,
 				35C604382214F9B0004733D5 /* ZRichFlavorTests */,
 				35C6042C2214F9B0004733D5 /* Products */,
+				205EFEC1376536F8DA5F805A /* Pods */,
+				5DF36B1F2F3E03249B8A1309 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +96,7 @@
 		35C6042D2214F9B0004733D5 /* ZRichFlavor */ = {
 			isa = PBXGroup;
 			children = (
+				35C604452214FD0D004733D5 /* Models */,
 				35C6042E2214F9B0004733D5 /* ZRichFlavor.h */,
 				35C6042F2214F9B0004733D5 /* Info.plist */,
 			);
@@ -84,6 +110,23 @@
 				35C6043B2214F9B0004733D5 /* Info.plist */,
 			);
 			path = ZRichFlavorTests;
+			sourceTree = "<group>";
+		};
+		35C604452214FD0D004733D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				35C604462214FD27004733D5 /* SPerson.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5DF36B1F2F3E03249B8A1309 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDFECB9D5D6822CC2681D861 /* libPods-ZRichFlavor.a */,
+				DB2495685E742BA0672593B6 /* libPods-ZRichFlavorTests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +147,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35C6043F2214F9B0004733D5 /* Build configuration list for PBXNativeTarget "ZRichFlavor" */;
 			buildPhases = (
+				CDCF7FE6E957AD3D7206115B /* [CP] Check Pods Manifest.lock */,
 				35C604262214F9B0004733D5 /* Headers */,
 				35C604272214F9B0004733D5 /* Sources */,
 				35C604282214F9B0004733D5 /* Frameworks */,
@@ -122,6 +166,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35C604422214F9B0004733D5 /* Build configuration list for PBXNativeTarget "ZRichFlavorTests" */;
 			buildPhases = (
+				29B15F2C25A3E679AC0A57EC /* [CP] Check Pods Manifest.lock */,
 				35C604302214F9B0004733D5 /* Sources */,
 				35C604312214F9B0004733D5 /* Frameworks */,
 				35C604322214F9B0004733D5 /* Resources */,
@@ -148,6 +193,7 @@
 				TargetAttributes = {
 					35C6042A2214F9B0004733D5 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					35C604332214F9B0004733D5 = {
 						CreatedOnToolsVersion = 10.1;
@@ -189,11 +235,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29B15F2C25A3E679AC0A57EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZRichFlavorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDCF7FE6E957AD3D7206115B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZRichFlavor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		35C604272214F9B0004733D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35C604472214FD27004733D5 /* SPerson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +434,9 @@
 		};
 		35C604402214F9B0004733D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F895CC21A10ECACB9769944C /* Pods-ZRichFlavor.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +454,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.internetbrands.ZRichFlavor;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,7 +462,9 @@
 		};
 		35C604412214F9B0004733D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8316AF1076CA0863B939C03 /* Pods-ZRichFlavor.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -390,7 +489,9 @@
 		};
 		35C604432214F9B0004733D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89CBC309ED4874D299FC51C8 /* Pods-ZRichFlavorTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5JYMWHG8W9;
 				INFOPLIST_FILE = ZRichFlavorTests/Info.plist;
@@ -408,7 +509,9 @@
 		};
 		35C604442214F9B0004733D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60D69D3A88008527BB12BC42 /* Pods-ZRichFlavorTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5JYMWHG8W9;
 				INFOPLIST_FILE = ZRichFlavorTests/Info.plist;
